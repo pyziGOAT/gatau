@@ -1,1 +1,88 @@
-# gatau
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>dilva ganteng banget 💔</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      color: #333;
+      text-align: center;
+    }
+
+    .container {
+      background: white;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+      max-width: 500px;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    h1 {
+      color: #e63946;
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.1em;
+      margin: 10px 0;
+      line-height: 1.5em;
+    }
+
+    .heart {
+      color: red;
+      font-size: 30px;
+      animation: pulse 1.5s infinite;
+    }
+
+    button {
+      background-color: #ff6b6b;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      border-radius: 25px;
+      font-size: 1em;
+      margin-top: 20px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #fa5252;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>haiii aku dilvaa</h1>
+    <p>haii aisha nurjanatul anhaf</p>
+    <p>Aku dilva yang ganteng, stopp marah nanti lamuvepet tua ga imut.</p>
+    <p><strong>ngambeknya serem tapi imut ❤️</strong></p>
+    <p>Semoga kamu ga lupa buat mandi yaaa😊</p>
+    <div class="heart">💖</div>
+    <button onclick="alert('Makasih ya udah mau maafin aku 😘')">Maafin Aku</button>
+  </div>
+</body>
+</html>
